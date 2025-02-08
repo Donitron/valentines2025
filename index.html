@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Valentine</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .container {
+            height: 400vh;
+            position: relative;
+            padding: 150vh 2rem 0;
+        }
+
+        .container p {
+            position: sticky;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 3rem;
+            text-align: center;
+            z-index: 2;
+            font-weight: 700;
+        }
+
+        .parallax-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+        }
+
+        .photo {
+            position: absolute;
+            max-width: 40rem;
+            height: auto;
+            background: #666;
+            border-radius: 10px;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        /* Position your photos */
+        .photo:nth-child(1) {
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%) rotate(-5deg);
+        }
+
+        .photo:nth-child(2) {
+            top: 60%;
+            left: 70%;
+            transform: translate(-50%, -50%) rotate(5deg);
+        }
+
+        .photo:nth-child(3) {
+            top: 120%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-3deg);
+        }
+        .photo:nth-child(4) { top: 150%; left: 25%; transform: translate(-50%, -50%) rotate(7deg); }
+        .photo:nth-child(5) { top: 200%; left: 76%; transform: translate(-50%, -50%) rotate(-10deg); }
+        .photo:nth-child(6) { top: 250%; left: 60%; transform: translate(-50%, -50%) rotate(15deg); }
+        .photo:nth-child(7) { top: 350%; left: 35%; transform: translate(-50%, -50%) rotate(-6deg); }
+        .photo:nth-child(8) { top: 375%; left: 80%; transform: translate(-50%, -50%) rotate(9deg); }
+        .photo:nth-child(9) { top: 450%; left: 20%; transform: translate(-50%, -50%) rotate(1deg); }
+        .photo:nth-child(10) { top: 475%; left: 70%; transform: translate(-50%, -50%) rotate(7deg); }
+        .photo:nth-child(11) { top: 510%; left: 20%; transform: translate(-50%, -50%) rotate(9deg); }
+        .photo:nth-child(12) { top: 540%; left: 35%; transform: translate(-50%, -50%) rotate(-12deg); }
+        .photo:nth-child(13) { top: 570%; left: 80%; transform: translate(-50%, -50%) rotate(3deg); }
+        .photo:nth-child(14) { top: 600%; left: 65%; transform: translate(-50%, -50%) rotate(-8deg); }
+        .photo:nth-child(15) { top: 700%; left: 80%; transform: translate(-50%, -50%) rotate(14deg); }
+        .photo:nth-child(16) { top: 750%; left: 25%; transform: translate(-50%, -50%) rotate(-5deg); }
+        .photo:nth-child(17) { top: 800%; left: 70%; transform: translate(-50%, -50%) rotate(7deg); }
+        .photo:nth-child(18) { top: 850%; left: 25%; transform: translate(-50%, -50%) rotate(-3deg); }
+        .photo:nth-child(19) { top: 880%; left: 70%; transform: translate(-50%, -50%) rotate(11deg); }
+        .photo:nth-child(20) { top: 935%; left: 85%; transform: translate(-50%, -50%) rotate(-7deg); }
+        .photo:nth-child(21) { top: 970%; left: 30%; transform: translate(-50%, -50%) rotate(5deg); }
+        .photo:nth-child(22) { top: 1000%; left: 45%; transform: translate(-50%, -50%) rotate(-10deg); }
+        .photo:nth-child(23) { top: 1080%; left: 30%; transform: translate(-50%, -50%) rotate(13deg); }
+        .photo:nth-child(24) { top: 1125%; left: 75%; transform: translate(-50%, -50%) rotate(-6deg); }
+        .photo:nth-child(25) { top: 1180%; left: 60%; transform: translate(-50%, -50%) rotate(8deg); }
+        .photo:nth-child(26) { top: 1200%; left: 35%; transform: translate(-50%, -50%) rotate(-4deg); }
+        .photo:nth-child(27) { top: 1270%; left: 80%; transform: translate(-50%, -50%) rotate(12deg); }
+        .photo:nth-child(28) { top: 1300%; left: 15%; transform: translate(-50%, -50%) rotate(-9deg); }
+        .photo:nth-child(29) { top: 1350%; left: 50%; transform: translate(-50%, -50%) rotate(6deg); }
+        .photo:nth-child(30) { top: 1380%; left: 75%; transform: translate(-50%, -50%) rotate(-11deg); }
+        .photo:nth-child(31) { top: 1420%; left: 40%; transform: translate(-50%, -50%) rotate(4deg); }
+        .photo:nth-child(32) { top: 1480%; left: 25%; transform: translate(-50%, -50%) rotate(-13deg); }
+        .photo:nth-child(33) { top: 1500%; left: 70%; transform: translate(-50%, -50%) rotate(15deg); }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <p>Hey honey ❤️</p>
+  </div>
+  <div class="container">
+    <p>We made so many fun memories, I am so thankful for them all...</p>
+  </div>
+  <div class="container">
+    <p>I want to add another one to it</p>
+  </div>
+  <div class="container">
+    <p>Do you...</p>
+  </div>
+  <div class="container">
+    <p>Want to be my Valentine?</p>
+  </div>
+  <div class="foto-container">
+    <img src="images/14298.jpg" class="photo">
+    <img src="images/1000000607.jpg" class="photo">
+    <img src="images/1000000641.jpg" class="photo">
+    <img src="images/1000001404.jpg" class="photo">
+    <img src="images/1000006176.jpg" class="photo">
+    <img src="images/1000007569.jpg" class="photo">
+    <img src="images/IMG_7824.jpg" class="photo">
+    <img src="images/IMG_7965.jpg" class="photo">
+    <img src="images/IMG_8013.jpg" class="photo">
+    <img src="images/IMG_8150.jpg" class="photo">
+    <img src="images/IMG_8210.jpg" class="photo">
+    <img src="images/IMG_8410.jpg" class="photo">
+    <img src="images/IMG_8951.jpg" class="photo">
+    <img src="images/IMG_8963.jpg" class="photo">
+    <img src="images/IMG_8972.jpg" class="photo">
+    <img src="images/IMG_9067.jpg" class="photo">
+    <img src="images/IMG_9098.jpg" class="photo">
+    <img src="images/IMG_9100.jpg" class="photo">
+    <img src="images/IMG_9179.jpg" class="photo">
+    <img src="images/IMG_9356.jpg" class="photo">
+    <img src="images/IMG_9372.jpg" class="photo">
+    <img src="images/IMG_9411.jpg" class="photo">
+    <img src="images/IMG_9414.jpg" class="photo">
+    <img src="images/IMG_9505.jpg" class="photo">
+    <img src="images/IMG-20220711-WA0079.jpg" class="photo">
+    <img src="images/IMG_20220825_172218.jpg" class="photo">
+    <img src="images/IMG_20230324_205304.jpg" class="photo">
+    <img src="images/IMG_20230330_170620.jpg" class="photo">
+    <img src="images/IMG_20230516_133235.jpg" class="photo">
+    <img src="images/IMG_20230518_122327.jpg" class="photo">
+    <img src="images/IMG_20230518_151300~2.jpg" class="photo">
+    <img src="images/IMG_20230604_170247.jpg" class="photo">
+    <img src="images/IMG_20230812_165841.jpg" class="photo">
+  </div>
+</body>
+</html>
